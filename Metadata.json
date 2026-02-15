@@ -1,0 +1,35 @@
+{
+  "name": "CopilotPanel",
+  "id": "com.shruti.copilot.panel",
+  "version": "1.0.0",
+  "framework": "webcomponents",
+  "icon": "",
+  "description": "Simple Copilot panel for SAC stories",
+  "vendor": "Shruti",
+  "eula": "",
+  "license": "MIT",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "sac-copilot-widget",
+      "url": "https://github.com/shrutisrivastavasapbi/CoPilotPanel/blob/main/component.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "Title": {
+      "type": "string",
+      "default": "Ask Copilot about this view"
+    },
+    "BackendUrl": {
+      "type": "string",
+      "default": "https://YOUR_FUNCTION_APP.azurewebsites.net/api/copilot"
+    },
+    "Category": { "type": "string", "default": "" },
+    "Market":   { "type": "string", "default": "" },
+    "Channel":  { "type": "string", "default": "" }
+  },
+  "methods": {},
+  "events": {}
+}
